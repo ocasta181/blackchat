@@ -12,4 +12,4 @@ EXPOSE 3000
 
 ENV NAME blackchat
 
-CMD ["node", "start"]
+CMD ["node", "src/server/server.js"]
